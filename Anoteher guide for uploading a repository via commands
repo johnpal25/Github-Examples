@@ -1,0 +1,26 @@
+Here's another guide you can follow in order to push a local repository into GitHub. Hope you enjoy!
+
+For creating a new repository:
+git config --global user.email "@gmail.com" 
+git config --global user.name "jgjghj"
+
+git config --global --unset init.defaultBranch
+git config --list 
+git init
+git add . 
+git commit -m "Commit 1"
+git branch -M main
+git remote add origin [the link of your repository]
+
+git push -u origin main 
+Username for 'https://github.com/':  [your username]
+Password for 'https://github.com/': [your token]
+
+
+
+For update an existing repository: 
+git add . 
+git commit "Commit 2"
+git push -u origin main
+Username for 'https://github.com/': [your username]
+Password for 'https://github.com/': [your token]
