@@ -8,3 +8,6 @@ Paste the files in it
 git add [the file(s) you want to add]
 git remote add origin https://github.com/johnpal25/Github-Examples (may be used before the add)
 git commit -m "Commited Dockerfile"
+git push --all origin
+
+It will ask you your username and your account token. After that, the changes will be pushed to the remote repository
