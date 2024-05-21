@@ -1,0 +1,5 @@
+Create a folder
+Enter
+git init
+Paste the files in it
+git add [the file(s) you want to add]
